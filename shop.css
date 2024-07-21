@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    background-color: aliceblue;
+}
+
+
+
+.titles{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 10px;
+    margin-top: 30px;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.list{
+    row-gap: 20px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+.list .item{
+    text-align: center;
+    background-color: rgba(173, 216, 230, 0.226);
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(10, 65, 62, 0.411);
+    padding: 20px 20px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    width: 250px;
+    height: 350px;
+    margin-top: 30px;
+}
+.list .item:hover{
+    height: calc(370px);
+    width: calc(270px);
+    box-shadow: 0 15px 30px rgba(0, 109, 199, 0.671);
+
+}
+.list .item img{
+    width: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    filter: drop-shadow(0 50px  20px #0005456c);
+}
+.list .item img:hover{
+    width: 60%;
+    margin-bottom: -40px;
+}
+.list .item .title{
+    margin-top: 50px;
+}
+.list .item button{
+    background-color: rgb(0, 89, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    box-shadow: 0 15px 30px rgb(0,0,0,0.3);
+    font-weight: 600;
+    
+}
+.list .item .btn02{
+    background-color: rgba(0, 175, 0, 0.897);
+    box-shadow: 0 15px 30px rgb(0,0,0,0.3);
+}
+.list .item .btn02:hover{
+    background-color: white;
+    color: rgba(0, 175, 0, 0.897);
+}
+.list .item button:hover{
+    background-color: white;
+    color: rgb(0, 89, 255);
+}
+.list .item .price{
+    font-size: 15px;
+    font-weight: 600;
+}
