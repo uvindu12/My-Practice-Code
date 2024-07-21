@@ -67,7 +67,7 @@ body{
     color: white;
     box-shadow: 0 15px 30px rgb(0,0,0,0.3);
     font-weight: 600;
-    
+    cursor: pointer;
 }
 .list .item .btn02{
     background-color: rgba(0, 175, 0, 0.897);
